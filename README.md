@@ -11,3 +11,9 @@ Before running the Docker Compose setup, ensure that you have Docker and Docker 
 1. Clone this repository to your local machine.
 2. Navigate to the directory containing the `docker-compose.yml` file.
 3. Run the following command to start the services:
+
+  ```bash
+    docker-compose up -d
+  ```
+
+ The `-d` flag runs the containers in detached mode, meaning they will run in the background.
