@@ -41,7 +41,7 @@ services:
     restart: "on-failure"
 
   graylog:
-    image: graylog/graylog:5.0
+    image: graylog/graylog:5.2
     networks:
       network_qnet-static:
         ipv4_address: 10.0.2.15
